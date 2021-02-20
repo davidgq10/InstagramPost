@@ -1,32 +1,26 @@
-# ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32)  The Instagram Post
+# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
 
-Instagram is one of the most popular user interfaces in the world, this is the first of three exercises that will make you replicate the most important and difficult parts of Instagram.com
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)
 
-In this case, we are starting with a single post.
+The most basic boilerplate for any 4Geeks Academy Student using the [gitpod.io](gitpod.io) coding editor.
 
-## Instructions
+[![How to open html/css preview of my project in gitpod](https://github.com/4GeeksAcademy/Templates-Boilerplates/blob/master/web-docs/static/hello-html-intro.jpg?raw=true)](https://youtu.be/dfbDCMu_p-0)
 
-Create the HTML and CSS needed to replicate [this exact same picture](https://github.com/breatheco-de/exercise-instagram-post/blob/master/preview.png?raw=true).
+## What to do next?
 
-<p align="center"><img src="https://github.com/breatheco-de/exercise-instagram-post/blob/master/preview.png?raw=true" height="300" /></p>
+Create a `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running web-server using the following command:
 
-## Strategy
+```sh
+$ pip3 install flask && python3 server.py
+```
 
-Start by identifying which html `<tags>` you can use for the website, like `<div>`, `<p>`, etc. Here is a quick hint on a good strategy:
+- You can create as many HTML files you want
+- You can also create CSS files and you can import them onto your website using a `<link>` tag placed between the `<head></head>` tags, like this:
 
-![Strategy for instagram post](https://github.com/breatheco-de/exercise-instagram-post/blob/master/strategy.gif?raw=true)
-
-## What to do if you are stuck?
-
-Ask the instructor or classmates right away, do not stay stuck for more than 15min because this is one of your first exercises and your are not expected to know everything. Ask questions!!!
-
-## Fundamentals
-This exercise covers the following fundamentals:
-1. Basic structure for every HTML5 website.
-2. The *Link* tag to import CSS Rules.
-3. Using google fonts.
-3. Using the different selectors available in CSS.
-4. Working with boxes: border, padding and margins.
-5. Overflow.
-6. Using Flex vs Postion vs Float vs Display.
-7. Using a simple form.
+```html
+<head>
+  ...
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  ...
+</head>
+```
