@@ -2,40 +2,44 @@ body{
     background: black;
 }
 .post{
-    display: block;
     background:white;
     margin: auto;
-    width: 400px;
+    width: 450px;
     height: 600px;
 }
-.header{
-    padding:10px; display: inline-flex; border-color: yellowgreen;background: violet;border-style: solid;border-width: 2px;width: 380px;
+.more{
+    margin-top: 15px;
+    margin-right: 8px;
 }
-.icon{
-    height: 20px;width:auto;
+.ipheader{
+    padding:0px 10px; display: flex; 
+    justify-content : space-between;
+    height: 60px;
+}
+.iplogo{
+    padding:10px; display: flex; 
+}
+.title {
+    line-height: 0.05 ;
+    margin-left: 10px;
+}
+.footer{
+    padding: 10px;
 }
 
 .fa-bookmark {
     float: right;
 }
 img {
-  width: 400px;
+    display: flex;
+  width: 450px;
 }
-
-
-/*
-Para revisión
-*/
-
-.footer{
-    background: violet;border-width: 2px;border-color: yellowgreen;
+.icon{
+    margin:15px 0px;
 }
-.title{
-    background: red;
+#ichtml{
+    margin-top: 8px;
 }
-.hicon{
-    background: blue;
-}
-.more{
-    background: yellow;
+.ftParag>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
